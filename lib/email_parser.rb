@@ -12,4 +12,4 @@ class EmailParser
   
   def parse
     
-    email_array = @email
+    email_array = @email.split
